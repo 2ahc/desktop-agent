@@ -1,0 +1,39 @@
+# Build output
+build/
+Release/
+Debug/
+out/
+*.exe
+*.lib
+*.dll
+*.exp
+*.ilk
+*.pdb
+*.obj
+*.pch
+*.tlog
+
+# IDE
+.vs/
+*.user
+*.autosave
+*.suo
+*.vcxproj*
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Qt generated
+mocs_compilation_*
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.moc
+*.rcc
+*.qrc.depends
+
+# OS
+.DS_Store
+Thumbs.db
